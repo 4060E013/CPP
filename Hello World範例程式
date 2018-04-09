@@ -1,0 +1,49 @@
+=============================
+
+/* C程式語言 練習題一 */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	printf("Hello World\n");
+
+	system("pause");
+	return 0;
+}
+
+===========================
+
+
+
+
+
+======================================
+/*
+	C++程式語言 練習題一
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+	cout << "hello world" << endl;
+
+	system("pause");
+	return 0;
+}
+==========================================
+
+
+
+======================================================
+/*
+	java程式語言 練習一
+*/
+public class test01{
+	public static void main(String[] args){
+		System.out.println("Hello World");
+	}
+}
+========================================================
