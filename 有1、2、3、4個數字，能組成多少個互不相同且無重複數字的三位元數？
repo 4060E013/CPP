@@ -1,0 +1,68 @@
+=========================================================
+
+/* C程式語言 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int i,j,k;
+
+    printf("\n");
+    for(i=1;i<5;i++){ 
+        for(j=1;j<5;j++){
+            for (k=1;k<5;k++){
+                if (i!=k&&i!=j&&j!=k){ 
+                    printf("%d,%d,%d\n",i,j,k);
+                }
+            }
+        }
+    }
+	system("pause");
+	return 0;
+}
+
+===========================================================
+
+/* C++程式語言 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+	for(int i=1;i<5;i++){
+	    for(int j=1;j<5;j++){
+	        for (int k=1;k<5;k++){
+	            if (i!=k&&i!=j&&j!=k){ 
+	                cout << i << "," << j << "," << k << endl;
+	            }
+	        }
+	    }
+	}
+
+	system("pause");
+	return 0;
+}
+
+==========================================
+
+/* java程式語言 */
+
+public class test{
+	public static void main(String[] args){
+		for(int i=1;i<5;i++){
+		    for(int j=1;j<5;j++){
+		        for (int k=1;k<5;k++){
+		            if (i!=k&&i!=j&&j!=k){ 
+		                cout << i << "," << j << "," << k << endl;
+		                System.out.println(i+","+j+","+k);
+		            }
+		        }
+		    }
+		}
+	}
+}
+
+==============================================================
