@@ -1,0 +1,56 @@
+========================
+
+/* C語言 */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int i,j;
+
+	for(i=1;i<10;i++){
+		for(j=1;j<10;j++){
+			printf("%dx%d=%d\t",i,j,i*j);
+		}
+		printf("\n");
+	}
+
+	system("pause");
+	return 0;
+}
+
+=====================
+ 
+/* C++程式語言 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+	for(int i=1;i<10;i++){
+		for(int j=1;j<10;j++){
+			cout << i << "x" << j << "=" << i*j << "\t";
+		}
+		cout << endl;
+	}
+	system("pause");
+	return 0;
+}
+
+======================
+
+/* java程式語言 */
+
+public class test01{
+	public static void main(String[] args){
+		for(int i=1;i<10;i++){
+			for(int j=1;j<10;j++){
+				System.out.print(j+"x"+i+"="+(i*j)+"\t");
+			}
+			System.out.println();
+		}
+	}
+}
+
+============================
