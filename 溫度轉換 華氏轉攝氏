@@ -1,0 +1,53 @@
+=======================
+
+/* C程式語言 */
+    
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int num;
+	printf("華氏溫度:");
+	scanf("%d",&num);
+	printf("攝氏溫度:%d\n",(num-32)*5/9);
+
+	system("pause");
+	return 0;
+}
+
+================================
+
+/* C++程式語言 */
+    
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+	int num;
+	cout << "華氏溫度:";
+	cin >> num;
+	cout << "攝氏溫度:" << (num-32)*5/9 << endl;
+	
+	system("pause");
+	return 0;
+}
+
+==================================
+/* java程式語言 */
+
+import java.util.Scanner;
+
+public class test {
+	public static void main(String[] args) {
+			Scanner sr = new Scanner(System.in);
+
+			System.out.print("華氏溫度:");
+			int num = sr.nextInt();
+			System.out.println("攝氏溫度:"+(num-32)*5/9);
+
+		}	
+}
+
+==========================================================
